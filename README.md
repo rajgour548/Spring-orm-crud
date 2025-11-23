@@ -23,13 +23,12 @@ This project runs as a simple Java application (not a web app) and showcases CRU
 ```
 🏗️ Tech Stack
 ```bash
-Category	Technologies
-Core Framework	Spring Core, Spring ORM
-ORM	Hibernate
-Database	MySQL
-Build Tool	Maven
-Java Version	Java 17 / 11 / 8 (whichever you used)
-Project Type	Standalone Spring Application (JAR)
+- Core ➜ Framework	Spring Core, Spring ORM
+- ORM	➜ Hibernate
+- Database	➜ MySQL
+- Build Tool	➜ Maven
+- Java Version	➜ Java 17 / 11 / 8 (whichever you used)
+- Project Type	➜ Standalone Spring Application (JAR)
 ```
 📂 Project Structure
 ```bash
@@ -66,24 +65,24 @@ This demonstrates full Spring-controlled Hibernate integration.
 🚀 How to Run
 ```bash
 1️⃣ Clone the repository
-git clone <your-repo-url>
+- git clone <your-repo-url>
 
 2️⃣ Create MySQL database
 
 Example:
 
-CREATE DATABASE springorm;
+- CREATE DATABASE springorm;
 
 3️⃣ Configure DB credentials
 
-Update inside src/main/resources/config.xml:
+- Update inside src/main/resources/config.xml:
 
 <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/springorm"/>
 <property name="username" value="root"/>
 <property name="password" value="yourpassword"/>
 
 4️⃣ Build the project
-mvn clean install
+- mvn clean install
 
 5️⃣ Run the application
 
@@ -91,35 +90,35 @@ Execute App.java from your IDE or command line.
 
 📘 What This Project Demonstrates
 
-How to integrate Hibernate ORM without using hibernate.cfg.xml
+- How to integrate Hibernate ORM without using hibernate.cfg.xml
 
-How Spring manages SessionFactory and dependencies
+- How Spring manages SessionFactory and dependencies
 
-How to structure a non-web Spring application
+- How to structure a non-web Spring application
 
-Clean layered approach: Entity → DAO → Main App
+- Clean layered approach: Entity → DAO → Main App
 
-Real-world understanding of Spring + Hibernate setup
+- Real-world understanding of Spring + Hibernate setup
 ```
 ⭐ Why This Repository Is Useful
 ```bash
-Great for beginners and intermediate learners
+- Great for beginners and intermediate learners
 
-Ideal reference for Spring ORM interview preparation
+- Ideal reference for Spring ORM interview preparation
 
-Shows real database connectivity using Hibernate
+- Shows real database connectivity using Hibernate
 
-Simple, readable codebase
+- Simple, readable codebase
 
-Perfect starting point for larger Spring projects
+- Perfect starting point for larger Spring projects
 ```
 📌 Future Enhancements (Optional)
 ```bash
-Add service layer
+- Add service layer
 
-Add annotation-based configuration
+- Add annotation-based configuration
 
-Replace XML with Java Config
+- Replace XML with Java Config
 
-Add Spring Boot version
+- Add Spring Boot version
 ```
